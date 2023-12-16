@@ -6,15 +6,13 @@ const port = 3000;
 const productsData = {
   data: [
     {
-      product_image:
-        "https://cdn.shopify.com/s/files/1/0769/2615/7113/files/um-training-001-1.jpg",
+      product_image: "http://surl.li/oidtp",
       product_title: "Jack Jones",
       product_badge: "New",
       product_variants: [{ v1: "Blue/S" }, { v2: "Blue/M" }, { v3: "Blue/L" }],
     },
     {
-      product_image:
-        "https://cdn.shopify.com/s/files/1/0769/2615/7113/files/limited-edition-003-4.jpg",
+      product_image: "http://surl.li/oidtx",
       product_title: "Adidas",
       product_badge: "New",
       product_variants: [
@@ -24,8 +22,7 @@ const productsData = {
       ],
     },
     {
-      product_image:
-        "https://cdn.shopify.com/s/files/1/0769/2615/7113/files/beach-bum-01.jpg",
+      product_image: "http://surl.li/oidua",
       product_title: "Puma",
       product_badge: "NEW",
       product_variants: [
@@ -35,15 +32,13 @@ const productsData = {
       ],
     },
     {
-      product_image:
-        "https://cdn.shopify.com/s/files/1/0769/2615/7113/files/limited-edition-003-4.jpg",
+      product_image: "http://surl.li/oidud",
       product_title: "Puma",
       product_badge: "",
       product_variants: [{ v1: "RED/XS" }, { v2: "RED/M" }, { v3: "RED/XL" }],
     },
     {
-      product_image:
-        "https://cdn.shopify.com/s/files/1/0769/2615/7113/files/um-training-001-1.jpg",
+      product_image: "http://surl.li/oiduh",
       product_title: "Nike",
       product_badge: "NEW",
       product_variants: [
@@ -53,8 +48,7 @@ const productsData = {
       ],
     },
     {
-      product_image:
-        "https://cdn.shopify.com/s/files/1/0769/2615/7113/files/beach-bum-01.jpg",
+      product_image: "http://surl.li/oidun",
       product_title: "Teamspirit",
       product_badge: "NEW",
       product_variants: [{ v1: "Red/XS" }, { v2: "Red/M" }, { v3: "Red/XL" }],
