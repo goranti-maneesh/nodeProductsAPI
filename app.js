@@ -16,17 +16,17 @@ app.use((req, res, next) => {
 const productsData = [
     {
         id: "1",
-        image: "https://asset.cloudinary.com/difbmfdoo/9313129bf84748e98d3bff61fa1cb057",
+        image: "https://res.cloudinary.com/difbmfdoo/image/upload/v1708066869/My_project_11_1_dz1lph.png",
         title: "Latest Edition"
     },
     {
         id: "2",
-        image: "https://asset.cloudinary.com/difbmfdoo/9d745c3339861796c2ac65f6a26ebdcc",
+        image: "https://res.cloudinary.com/difbmfdoo/image/upload/v1708067152/1_rcjox1.png",
         title: "Shirts"
     },
     {
         id: "3",
-        image: "https://asset.cloudinary.com/difbmfdoo/9d745c3339861796c2ac65f6a26ebdcc",
+        image: "https://res.cloudinary.com/difbmfdoo/image/upload/v1708067398/2_xtvdrd.png",
         title: "Hoodies"
     }
 ];
