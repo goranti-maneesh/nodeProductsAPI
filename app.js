@@ -13,58 +13,23 @@ app.use((req, res, next) => {
 });
 
 // Mock data
-const productsData = {
-  data: [
+const productsData = [
     {
-      product_image: "http://surl.li/oidtp",
-      product_title: "Jack Jones",
-      product_badge: "New",
-      product_variants: [{ v1: "Blue/S" }, { v2: "Blue/M" }, { v3: "Blue/L" }],
+        id: "1",
+        image: "https://asset.cloudinary.com/difbmfdoo/9313129bf84748e98d3bff61fa1cb057",
+        title: "Latest Edition"
     },
     {
-      product_image: "http://surl.li/oidtx",
-      product_title: "Adidas",
-      product_badge: "New",
-      product_variants: [
-        { v1: "Green/S" },
-        { v2: "Green/M" },
-        { v3: "Green/L" },
-      ],
+        id: "2",
+        image: "https://asset.cloudinary.com/difbmfdoo/9d745c3339861796c2ac65f6a26ebdcc",
+        title: "Shirts"
     },
     {
-      product_image: "http://surl.li/oidua",
-      product_title: "Puma",
-      product_badge: "NEW",
-      product_variants: [
-        { v1: "Orange/S" },
-        { v2: "Orange/M" },
-        { v3: "Orange/L" },
-      ],
-    },
-    {
-      product_image: "http://surl.li/oidud",
-      product_title: "Puma",
-      product_badge: "",
-      product_variants: [{ v1: "RED/XS" }, { v2: "RED/M" }, { v3: "RED/XL" }],
-    },
-    {
-      product_image: "http://surl.li/oiduh",
-      product_title: "Nike",
-      product_badge: "NEW",
-      product_variants: [
-        { v1: "Orange/XS" },
-        { v2: "Orange/M" },
-        { v3: "Orange/XL" },
-      ],
-    },
-    {
-      product_image: "http://surl.li/oidun",
-      product_title: "Teamspirit",
-      product_badge: "NEW",
-      product_variants: [{ v1: "Red/XS" }, { v2: "Red/M" }, { v3: "Red/XL" }],
-    },
-  ],
-};
+        id: "3",
+        image: "https://asset.cloudinary.com/difbmfdoo/9d745c3339861796c2ac65f6a26ebdcc",
+        title: "Hoodies"
+    }
+];
 
 app.get("/api/products", (req, res) => {
   res.json(productsData);
